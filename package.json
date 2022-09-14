@@ -1,0 +1,25 @@
+{
+  "name": "project-12-bunch-of-cool-info-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franswarduvar/Project-12-bunch-of-cool-info-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franswarduvar/Project-12-bunch-of-cool-info-database/issues"
+  },
+  "homepage": "https://github.com/Franswarduvar/Project-12-bunch-of-cool-info-database#readme",
+  "dependencies": {
+    "inquirer": "8.2",
+    "mysql2": "^2.3.3"
+  }
+}
