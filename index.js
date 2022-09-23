@@ -311,7 +311,12 @@ inquirer.prompt([
 ]) .then(answer =>{
     const sql = `UPDATE employee SET role_id = ? WHERE ID = ?`
     const params = [answer.role, employyee_id]
-    selection();
+    db.query(sql, params, (err, data) => {
+        if(err){
+            console.log(err);
+        }
+        selection();
+    })
 })
 
 };
